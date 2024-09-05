@@ -1,0 +1,15 @@
+{
+  "projectId": "prj_NgfJPdmqEl1E3ABRllPImaHAziNk",
+  "orgId": "team_p8CZsliyQhR3QPz6klrIlmAs",
+  "settings": {
+    "createdAt": 1716171129747,
+    "framework": null,
+    "devCommand": null,
+    "installCommand": "npm install --force",
+    "buildCommand": null,
+    "outputDirectory": null,
+    "rootDirectory": "src/app",
+    "directoryListing": false,
+    "nodeVersion": "20.x"
+  }
+}
