@@ -2,10 +2,16 @@
     "builds": [
         {
             "src": "package.json",
-            "use": "@vercel/node",
+            "use": "@vercel/static-build",
             "config": {
                 "distDir": "dist/now-ui-kit-angular"
                 }
-            }
-    ]
+        }
+    ],
+    "routes": [
+        {
+          "src": "/(.*)",
+          "dest": "/index.html"
+        }
+      ]
 }
